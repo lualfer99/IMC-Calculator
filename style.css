@@ -1,0 +1,118 @@
+body{
+    background-color: #f8f8f8;
+    color: #4b4e54;
+    font-family: Poppins,serif;
+}
+
+.contenedor{
+    background-color: #fff;
+    margin: auto;
+    margin-top: 20px;
+    width: 50%;
+    padding: 20px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    box-shadow: 4px 4px 18px 3px rgba(0,0,0,0.3);
+}
+
+@media only screen and (max-width: 980px) {
+    .contenedor {
+    width: auto;  
+    margin: auto; 
+ }
+  }
+
+.titulo{
+    text-align: center;
+    color: #fff;
+    padding: 5px;
+    background-color: #270089;
+    font-weight: bold;
+    box-shadow: 4px 4px 18px 3px rgba(0,0,0,0.3);
+}
+
+.cuerpo{
+    padding-left: 20px;
+    padding-top: 20px;
+    margin: auto;
+    text-align: center;
+
+}
+
+button{
+    color: #fff;
+    background-color: #270089;
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    border-style: solid;
+    cursor: pointer;
+    line-height: 1.5;
+    outline: none;
+    border-radius: 5px;
+    width: 50%;
+    border-color: #270089;
+    box-shadow: 4px 4px 18px 3px rgba(0,0,0,0.3);
+
+}
+
+
+
+button:hover{
+    background-color:#270089;
+    border-color: #270089;
+
+}
+
+button:focus{
+    background-color:#330b8a;
+    border-color: #270089;
+}
+
+button#calcularIMC{
+    display: none;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    cursor: wait;
+}
+
+table{
+    border-spacing: 0;
+    border-radius: 5px;
+    vertical-align: top;
+    border:1px solid #000;
+    text-align: center;
+}
+
+.encambezadotabla{
+    background-color: #270089;
+    color:#fff;
+    font-weight: bold;
+}
+
+#tablaIMC {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #tablaIMC td, #tablaIMC th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #tablaIMC tr:nth-child(even){
+      background-color: #f2f2f2;
+    }
+  
+  #tablaIMC tr:hover {
+      background-color:  #270089;
+      color: #fff;
+    }
+  
+ 
